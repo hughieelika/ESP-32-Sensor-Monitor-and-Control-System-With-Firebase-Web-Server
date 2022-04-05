@@ -10,7 +10,7 @@ https://hughielika.medium.com/project-8-monitor-ruangan-dan-kendali-sistem-jarak
 ## LIVE Realtime Sensor Display and Control:
 https://esp32-webserver-bab81.web.app/
 
-![image](https://user-images.githubusercontent.com/88127470/161687807-7e924f8a-b067-4a06-bd30-3fc34f13748a.png)
+![image](https://user-images.githubusercontent.com/88127470/161688007-c0dbbfcc-1247-4033-a67a-e1e816251b6a.png)
 
 ## Firebase:
 https://firebase.google.com/
