@@ -1,0 +1,114 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+:root {
+    --body-font: 'Inter', sans-serif;
+    --h1-font-size: 3rem;
+    --h2-font-size: 1.8rem;
+    --h3-font-size: 1.5rem;
+    --font-regular: 400;
+    --font-semi-bold: 600;
+    --font-bold: 900;
+}
+body{
+    background: #3E4259;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    margin: 30px auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.table{
+    color: #F2F2FD;
+    font-family: var(--body-font);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-regular);
+    margin-right: 10px auto;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.header{
+    margin: 30px auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-direction: column;
+}
+.main{
+    margin: 30px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-direction: column;
+}
+.main > .head__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--body-font);
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    color: #F2F2FD;
+}
+.main > .low__title{
+    gap: 1.5rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    font-family: var(--body-font);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: #F2F2FD;
+}
+.toggle-btn{
+    width: 80px;
+    height: 40px;
+    background: #F2F2FD;
+    border-radius: 30px;
+    padding: 5px;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn > .inner-circle{
+    width: 40px;
+    height: 40px;
+    background: #565A6D;
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn > .inner-circle.active{
+    width: 40px;
+    height: 40px;
+    background: #F2F2FD;
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn.active{
+    background: #FFBE0A;
+    transition-delay:0.5s;
+}
+.toggle-btn.active> .inner-circle{
+    margin-left: 40px;
+}
+.icon1{
+    font-size: 8rem;	
+	color: #F2F2FD;
+	margin: 10px auto;
+}

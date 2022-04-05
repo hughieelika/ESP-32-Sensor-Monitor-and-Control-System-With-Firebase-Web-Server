@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ESP32: Project 8 Web Server</title>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <script src = "script.js"></script>
+        <link rel="stylesheet" type="text/css" href ="style.css">
+    </head>
+    <body>
+        <div class = "wrapper">
+            <div class = "header">
+                <div class = "main">
+                    <span class="head__title">Hughie's Project #8</span>
+                    <span class="low__title">ESP32 With Firebase Web Server</span>
+                </div>
+            </div>
+            <!-- /* LED Control */ -->
+            <a class = "icon1" >
+                <i class="uil uil-lightbulb-alt"></i>
+			</a>
+            <div class = "progress">
+                <div class = "toggle-btn" id ="unact">
+                    <div class = "inner-circle"></div>
+                </div>
+                <div class = "toggle-btn active" id ="act">
+                    <div class = "inner-circle active"></div>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">BMP280 REALTIME SENSOR DISPLAY</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Temperature</td>
+                    <td class="value" id="temp"></td>
+                  </tr>
+                  <tr>
+                    <td>Pressure</td>
+                    <td class="value" id="press"></td>
+                  </tr>
+                  <tr>
+                    <td>Altitude</td>
+                    <td class="value" id="alt"></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </body>
+</html>
