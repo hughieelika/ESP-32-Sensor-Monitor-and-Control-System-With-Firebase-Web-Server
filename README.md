@@ -5,8 +5,12 @@ Hello, I'm Hughie Raymonelika Manggala from Bandung Institute of Technology. Wel
 ## Full Project Explanation:
 https://hughielika.medium.com/project-8-monitor-ruangan-dan-kendali-sistem-jarak-jauh-berbasis-firebase-web-server-1199328fac8d
 
+![image](https://user-images.githubusercontent.com/88127470/161687867-75a4f24b-2b5b-4eb1-a974-2679c579a65e.png)
+
 ## LIVE Realtime Sensor Display and Control:
 https://esp32-webserver-bab81.web.app/
+
+![image](https://user-images.githubusercontent.com/88127470/161687807-7e924f8a-b067-4a06-bd30-3fc34f13748a.png)
 
 ## Firebase:
 https://firebase.google.com/
